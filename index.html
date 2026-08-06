@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Study & Task Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>Study & Task Kanban</h1>
+    <form id="add-task-form">
+      <input type="text" id="task-input" placeholder="Enter a new task..." required autocomplete="off" />
+      <button type="submit">+ Add Task</button>
+    </form>
+  </header>
+
+  <main class="board">
+    <!-- To Do Column -->
+    <div class="column" data-status="todo">
+      <div class="column-header">
+        <h2>To Do</h2>
+        <span class="task-count" id="count-todo">0</span>
+      </div>
+      <div class="task-list" id="todo"></div>
+    </div>
+
+    <!-- In Progress Column -->
+    <div class="column" data-status="in-progress">
+      <div class="column-header">
+        <h2>In Progress</h2>
+        <span class="task-count" id="count-in-progress">0</span>
+      </div>
+      <div class="task-list" id="in-progress"></div>
+    </div>
+
+    <!-- Completed Column -->
+    <div class="column" data-status="completed">
+      <div class="column-header">
+        <h2>Completed</h2>
+        <span class="task-count" id="count-completed">0</span>
+      </div>
+      <div class="task-list" id="completed"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
