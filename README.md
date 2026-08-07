@@ -2,7 +2,7 @@
 
 An interactive, responsive Kanban board built with pure **Vanilla JavaScript**, **HTML5 Drag & Drop API**, and **CSS Grid**. Designed for tracking study goals and project workflows with persistent storage.
 
-🚀 **Live Demo:** [View Live App](https://AishaChunawala.github.io/interactive-kanban-board/)
+🚀 **Live Demo:** [View Live App](https://aishachunawala.github.io/interactive-kanban-board-or-study-kanban-board/)
 
 ---
 
